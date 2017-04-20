@@ -4,11 +4,11 @@
 
 
 	<groupId>org.graphast</groupId>
-	<artifactId>graphast-examples</artifactId>
-	<version>0.0.1</version>
+	<artifactId>graphast-tutorial</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>graphast-examples</name>
+	<name>graphast-tutorial</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
@@ -23,8 +23,11 @@
 	</repositories>
 
 	<dependencies>
-		<!-- <dependency> <groupId>org.graphast</groupId> <artifactId>graphast</artifactId> 
-			<version>0.1.1</version> </dependency> -->
+		<dependency>
+			<groupId>org.graphast</groupId>
+			<artifactId>graphast-core</artifactId>
+			<version>0.1.8</version>
+		</dependency>
 		<dependency>
 			<groupId>com.graphhopper</groupId>
 			<artifactId>graphhopper</artifactId>
